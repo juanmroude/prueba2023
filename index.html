@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tienda de ropa deportiva</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">Tienda de ropa deportiva</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Productos</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card">
+					<div class="card-body">
+						<h5 class="card-title">Filtrar por categoría</h5>
+						<hr>
+						<div class="form-group">
+                            <label for="categoria-select">Categoría:</label>
+                            <select class="form-control" id="categoria-select">
+                              <option value="todos">Todos</option>
+                              <option value="hombre">Hombre</option>
+                              <option value="mujer">Mujer</option>
+                              <option value="niño">Niño</option>
+                            </select>
+                        </div>
+                    </div>    
+				</div>
+			</div>
+			<div class="col-md-9">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="producto-card mb-4" data-categoria="hombre">
+							<img class="card-img-top" src="images/1.png" alt="Producto 1">
+							<div class="card-body">
+								<h5 class="card-title">Zapatilla Deportiva</h5>
+								<p class="card-text">$100.00</p>
+								<a href="#" class="btn btn-primary">Agregar
+                                    al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="producto-card mb-4" data-categoria="hombre">
+                                <img class="card-img-top" src="images/2.png" alt="Producto 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zapatilla de correr</h5>
+                                    <p class="card-text">$150.00</p>
+                                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="producto-card mb-4" data-categoria="mujer">
+                                <img class="card-img-top" src="images/3.png" alt="Producto 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zapatilla casual</h5>
+                                    <p class="card-text">$200.00</p>
+                                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="producto-card mb-4" data-categoria="niño">
+                                <img class="card-img-top" src="images/5.png" alt="Producto 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zapatilla Futsal</h5>
+                                    <p class="card-text">$200.00</p>
+                                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="producto-card mb-4" data-categoria="mujer">
+                                <img class="card-img-top" src="images/6.png" alt="Producto 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zapatilla Correr</h5>
+                                    <p class="card-text">$200.00</p>
+                                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="producto-card mb-4" data-categoria="hombre">
+                                <img class="card-img-top" src="images/4.png" alt="Producto 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Zapatilla Futbol</h5>
+                                    <p class="card-text">$200.00</p>
+                                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    
+        <footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>Información de contacto</h3>
+                  <p>Teléfono: 555-555-5555</p>
+                  <p>Dirección: 123 Calle Principal, Ciudad, País</p>
+                </div>
+                <div class="col-md-6">
+                  <h3>Síguenos en redes sociales</h3>
+                  <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+          
+          
+    </body>
+    </html>        

@@ -1,0 +1,153 @@
+/* Estilo para el cuerpo de la página */
+body {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #222222; /* Texto negro */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo para los encabezados */
+  h1, h2, h3 {
+    color: #004ae0; /* Azul celeste */
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  /* Estilo para los enlaces */
+  a {
+    color: #0088ff; /* Azul claro */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo para el menú de navegación */
+  .navbar {
+    background-color: #004ae0; /* Azul celeste */
+  }
+  
+  .navbar-brand,
+  .navbar-nav a {
+    color: #ffffff; /* Texto blanco */
+  }
+  
+  .navbar-brand:hover,
+  .navbar-nav a:hover {
+    color: #ff0000; /* Rojo */
+  }
+  
+  /* Estilo para las tarjetas de productos */
+  .producto-card {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #dcdcdc; /* Borde gris claro */
+  }
+  
+  .producto-card:hover {
+    box-shadow: 0px 0px 5px #999999; /* Sombra gris */
+  }
+  
+  .producto-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .producto-card h5 {
+    color: #004ae0; /* Azul celeste */
+  }
+  
+  .producto-card p {
+    font-weight: bold;
+  }
+  
+  /* Estilo para los filtros de categorías */
+  #filtro-categorias {
+    background-color: #f0f0f0; /* Fondo gris claro */
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #filtro-categorias label {
+    margin-right: 10px;
+    font-weight: normal;
+  }
+  
+  #filtro-categorias input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Estilo para el footer */
+footer {
+    background-color: #004ae0; /* Azul celeste */
+    color: #ffffff; /* Texto blanco */
+    padding: 30px 0;
+    font-size: 14px;
+  }
+  
+  /* Estilo para los iconos de redes sociales */
+  .social-icons a {
+    display: inline-block;
+    color: #ffffff; /* Texto blanco */
+    margin-right: 10px;
+  }
+  
+  .social-icons a:hover {
+    color: #0088ff; /* Azul claro */
+  }
+  
+  /* Estilo para el formulario de contacto */
+  #formulario-contacto input[type="text"],
+  #formulario-contacto input[type="email"],
+  #formulario-contacto textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Fondo gris claro */
+  }
+  
+  #formulario-contacto textarea {
+    height: 100px;
+  }
+  
+  #formulario-contacto input[type="submit"] {
+    background-color: #0088ff; /* Azul claro */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  #formulario-contacto input[type="submit"]:hover {
+    background-color: #004ae0; /* Azul celeste */
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    flex-basis: calc(33.33% - 10px);
+    max-width: calc(33.33% - 10px);
+    padding: 10px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    background-color: #0056b3;
+  }
+
+  footer h3{
+     color: #fff;
+  }
+  
